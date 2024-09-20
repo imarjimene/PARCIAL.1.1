@@ -17,8 +17,8 @@ import { Client } from './clients/entities/client.entity';
       host: 'localhost',
       port: 5432,
       username: 'postgres',
-      password: '12345',
-      database: 'postgres',
+      password: '123456',
+      database: 'culdb',
       entities: [
         User,
         Client  

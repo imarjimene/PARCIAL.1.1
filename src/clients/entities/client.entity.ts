@@ -1,6 +1,6 @@
 import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
-Entity()
+@Entity()
 
 export class Client {
     @PrimaryGeneratedColumn()
@@ -8,10 +8,18 @@ export class Client {
     @Column()
     name:string;
     @Column()
-    @Column()
     apellido:string;
+    @Column()
     email:string;
     @Column()
-    numero:number;
+    numero:number; 
+    @Column()
+    direccion:string; 
+    @Column()
+    ciudad:string;
+    @Column()
+    pais:string;
+    @Column()
+    fecha:string;
 
 }
